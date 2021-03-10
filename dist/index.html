@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="./libraries/bootstrap/css/bootstrap.min.css">
+   <link rel="stylesheet" href="./styles/main.css">
+   <title>Pana Hotels</title>
+</head>
+<body>
+   <!-- Navbar -->
+   <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <div class="container">
+         <a href="#" class="navbar-brand">
+            <img src="./assets/images/logo.png" alt="">
+         </a>
+         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navb">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navb">
+            <ul class="navbar-nav ml-auto mr-4">
+               <li class="nav-item active">
+                  <a href="#home" class="nav-link my-2 my-md-0">Home<span class="sr-only">( current )</span></a>
+               </li>
+               <li class="nav-item">
+                  <a href="#section-rooms" class="nav-link my-2 my-md-0">Rooms</a>
+               </li>
+               <li class="nav-item">
+                  <div class="dropdown">
+                     <a
+                        href="#"
+                        class="nav-link dropdown-toggle my-2 my-md-0" 
+                        id="dropdownbutton"
+                        data-toggle="dropdown"
+                     >
+                        Service
+                     </a>
+                     <div class="dropdown-menu" aria-labelledby="dropdownbutton">
+                        <a href="#" class="dropdown-item">Restaurant</a>
+                        <a href="#" class="dropdown-item">Bar</a>
+                        <a href="#" class="dropdown-item">Laundry</a>
+                     </div>
+                  </div>
+               </li>
+               <li class="nav-item">
+                  <a href="#section-gallery" class="nav-link my-2 my-md-0">Gallery</a>
+               </li>
+               <li class="nav-item">
+                  <a href="#section-feedback" class="nav-link my-2 my-md-0">Testimonial</a>
+               </li>
+            </ul>
+            <button type="button" class="btn btn-secondary btn-login mt-3 mt-md-0">Login</button>
+         </div>
+      </div>
+   </nav>
+
+   <!-- Header -->
+   <header class="d-flex align-items-center" id="home" style="background-image: url('./assets/images/banner.jpg');">
+      <div class="container">
+         <h1>
+            Stay with us feel <br> 
+            like home
+         </h1>
+         <a href="#" class="btn btn-book-now px-4 mt-4">Book Now</a>
+      </div>
+   </header>
+
+   <main>
+      <!-- Rooms -->
+      <section class="section-rooms" id="section-rooms">
+         <div class="header text-center">
+            <h2>Rooms</h2>
+            <p>Choice room for your journey</p>
+         </div>
+         <div class="container">
+            <div class="row justify-content-center">
+               <div 
+                  class="col-10 col-md-5 mt-3" 
+                  style="
+                     background-image: url('./assets/images/standard_room.png');
+                     background-size: cover;
+                  ">
+                  <h4>Standard Room</h4>
+                  <button type="button" class="btn btn-book-now">
+                     Book Now
+                  </button>
+               </div>
+               <div 
+                  class="col-10 col-md-5 mt-3"
+                  style="
+                     background-image: url('./assets/images/Premium_room.png');
+                     background-size: cover;"
+               >   
+                  <h4>Premium Room</h4>
+                  <button type="button" class="btn btn-book-now">
+                     Book Now
+                  </button>
+               </div>
+               <div 
+                  class="col-10 col-md-5 mt-3" 
+                  style="
+                     background-image: url('./assets/images/Business_room.png');
+                     background-size: cover;
+                  ">
+                  <h4>Business Room</h4>
+                  <button type="button" class="btn btn-book-now">
+                     Book Now
+                  </button>
+               </div>
+               <div 
+                  class="col-10 col-md-5 mt-3"
+                  style="
+                     background-image: url('./assets/images/Deluxe_room.png');
+                     background-size: cover;"
+               >
+                  <h4>Deluxe Room</h4>
+                  <button type="button" class="btn btn-book-now">
+                     Book Now
+                  </button>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- Facilty -->
+      <section class="section-facility" id="section-facility">
+         <div class="container">
+            <div class="header text-center text-md-left">
+               <h2>Facility</h2>
+               <p>
+                  Enjoy our facility to give you the
+                  <br> best experience
+               </p>
+            </div>
+            <div class="row">
+               <div class="py-3 col-12 col-md-6 col-lg-3 text-center">
+                  <img src="./assets/images/free_wifi.png" alt="free wifi">
+                  <h5>Free Wifi</h5>
+               </div>
+               <div class="py-3 col-12 col-md-6 col-lg-3 text-center">
+                  <img src="./assets/images/swiming_pool.png" alt="swimming pool">
+                  <h5>Swiming Pool</h5>
+               </div>
+               <div class="py-3 col-12 col-md-6 col-lg-3 text-center">
+                  <img src="./assets/images/restaurant.png" alt="restaurant">
+                  <h5>Restaurant</h5>
+               </div>
+               <div class="py-3 col-12 col-md-6 col-lg-3 text-center">
+                  <img src="./assets/images/bar.png" alt="bar">
+                  <h5>Bar</h5>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- Gallery -->
+      <section class="section-gallery" id="section-gallery">
+         <div class="header text-center">
+            <h2>Gallery</h2>
+            <p>
+               The beautiful moment that we 
+               <br> 
+               shot
+            </p>
+         </div>
+         <div class="container">
+            <div class="row">
+               <div class="col-12 col-md-4">
+                  <img src="./assets/images/image1.png" alt="">
+               </div>
+               <div class="col-12 col-md-4">
+                  <img src="./assets/images/image2.png" alt="">
+               </div>
+               <div class="col-12 col-md-4">
+                  <img src="./assets/images/image3.png" alt="">
+               </div>
+               <div class="col-12 col-md-4">
+                  <img src="./assets/images/image4.png" alt="">
+               </div>
+               <div class="col-12 col-md-4">
+                  <img src="./assets/images/image5.png" alt="">
+               </div>
+               <div class="col-12 col-md-4">
+                  <img src="./assets/images/image6.png" alt="">
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- Feedback -->
+      <section class="section-feedback" id="section-feedback"
+         style="background-image: url(./assets/images/bg_feedback.png); background-repeat: no-repeat;"
+      >
+         <div class="header text-center">
+            <h2>Feedback</h2>
+            <p>
+               Feedback from our client for the
+               <br> 
+               Hotel
+            </p>
+         </div>
+         <div class="container mt-5">
+            <div class="row justify-content-center">
+               <div class="col-8 col-md-3 d-flex flex-column align-items-center border feedback-item">
+                  <div class="profile">
+                     <img src="./assets/images/profile1.png" alt="">
+                  </div>
+                  <span>Mamat Alcatroz</span>
+                  <p class="text-center feedback">
+                     “ Wow, its a best Hotel ever i visit in My life. Thankyou for the services ”
+                  </p>
+               </div>
+               <div class="col-8 col-md-3 my-5 my-md-0 mx-md-5 mx-0 d-flex flex-column align-items-center border feedback-item">
+                  <div class="profile">
+                     <img src="./assets/images/profile2.png" alt="">
+                  </div>
+                  <span>Sofia The Princes</span>
+                  <p class="text-center feedback">
+                     “ The services in thi Hotel very good, her i’m like a princes.  ”
+                  </p>
+               </div>
+               <div class="col-8 col-md-3 d-flex flex-column align-items-center border feedback-item">
+                  <div class="profile">
+                     <img src="./assets/images/profile3.png" alt="">
+                  </div>
+                  <span>Mamat Alcatroz</span>
+                  <p class="text-center feedback">
+                     “ This Hotel have a good view in a Deluxe Room.  ”
+                  </p>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- help-section -->
+      <section class="section-help">
+         <div class="container d-flex justify-content-center">
+            <div class="btn-container">
+               <button type="button" class="btn btn-i-need-help mr-3">
+                  I Need Help
+               </button>
+               <button type="button" class="btn btn-book-now ml-3">
+                  Book Now
+               </button>
+            </div>
+         </div>
+      </section>
+   </main>
+   
+   <footer>
+      <div class="container">
+         <div class="row">
+            <div class="col-12 col-sm-6 col-md-3">
+               <h5>Features</h5>
+               <ul class="list-unstyled">
+                  <li><a href="#">Reviews</a></li>
+                  <li><a href="#">Comunity</a></li>
+                  <li><a href="#">Social Media Kit</a></li>
+                  <li><a href="#">Afiliate</a></li>
+               </ul>
+            </div>
+            <div class="col-12 col-lg-3 col-sm-6 col-md-3">
+               <h5>Account</h5>
+               <ul class="list-unstyled">
+                  <li><a href="#">Refund</a></li>
+                  <li><a href="#">Security</a></li>
+                  <li><a href="#">Awards</a></li>
+               </ul>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3">
+               <h5>Hotels</h5>
+               <ul class="list-unstyled">
+                  <li><a href="#">Career</a></li>
+                  <li><a href="#">Help Center</a></li>
+                  <li><a href="#">Media</a></li>
+               </ul>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3">
+               <h5>Get Connected</h5>
+               <ul class="list-unstyled">
+                  <li>Bandung Barat</li>
+                  <li>Indonesia</li>
+                  <li>0812 - 3456 -7890</li>
+                  <li>support@panahotel.com</li>
+               </ul>
+            </div>
+         </div>
+      </div>
+         <div class="container-fluid copyright">
+            <hr>
+            <div class="d-flex justify-content-center align-items-center">   
+               <span>Copyright Pana Hotel - 2021 </span>
+            </div>
+         </div>
+   </footer>
+
+
+   <!-- Script -->
+   <script src="./libraries/jquery/jquery.js"></script>
+   <script src="./libraries/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
