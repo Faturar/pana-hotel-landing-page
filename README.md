@@ -1,6 +1,6 @@
 # pana-hotel-landing-page
 
-you can see at 
+ini hanya personal project
 
 https://project.faturar.xyz/pana-hotel/
 
