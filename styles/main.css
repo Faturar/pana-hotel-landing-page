@@ -20,7 +20,10 @@ nav .container .navbar-collapse .navbar-nav .nav-item a {
 }
 
 header {
-  height: 615px;
+  background-image: url("../assets/images/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 660px;
 }
 
 header .container {
@@ -31,6 +34,7 @@ header .container h1 {
   color: #ffffff;
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
+  font-size: 64px;
 }
 
 header .container .btn-book-now {
@@ -66,7 +70,8 @@ header .container .btn-book-now:hover {
 }
 
 .section-rooms {
-  margin-top: 100px;
+  margin-top: 60px;
+  padding-top: 40px;
 }
 
 .section-rooms h2 {
@@ -193,7 +198,7 @@ header .container .btn-book-now:hover {
 }
 
 .section-help .btn-i-need-help {
-  color: #BFBFBF;
+  color: #646464;
   background-color: #EAEAEA;
 }
 

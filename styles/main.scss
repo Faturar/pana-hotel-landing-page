@@ -32,8 +32,10 @@ nav {
 }
 
 header {
-   height: 615px;
-   // box-shadow: 0 10px 70px rgba(0, 0, 0, 0.3);
+   background-image: url('../assets/images/banner.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 660px;
 
    .container {
       margin-top: -30px;
@@ -42,6 +44,7 @@ header {
          color: #ffffff;
          font-family: 'Raleway', sans-serif;
          font-weight: bold;
+         font-size: 64px;
       }
 
       .btn-book-now {
@@ -199,7 +202,7 @@ header {
    margin-top: 100px;
 
    .btn-i-need-help {
-      color: #BFBFBF; 
+      color: #646464; 
       background-color: #EAEAEA;
 
       &:hover {
