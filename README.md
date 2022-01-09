@@ -2,5 +2,5 @@
 
 ini hanya projek personal
 
-s.id/panahotel
+https://s.id/panahotel
 
