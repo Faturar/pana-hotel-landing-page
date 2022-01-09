@@ -2,5 +2,5 @@
 
 ini hanya projek personal
 
-https://project.faturar.xyz/pana-hotel/
+s.id/panahotel
 
