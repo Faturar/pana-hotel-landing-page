@@ -1,3 +1,7 @@
 # pana-hotel-landing-page
 
-ini hanya projek personal
+### Tech stack
+- HTML
+- CSS
+- Javascript
+- Bootstrap 4
