@@ -1,4 +1,3 @@
-# Mov Movie
 ## Screenshoot
 ![Screenshoot](https://github.com/Faturar/pana-hotel-landing-page/blob/master/screenshoot.png "Screenshoot")
 
